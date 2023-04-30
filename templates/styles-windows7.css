@@ -1,0 +1,101 @@
+body {
+  font-family: Segoe UI, sans-serif;
+  background-color: #F0F0F0;
+}
+
+/* Toolbar */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E5E5E5;
+  padding: 10px;
+}
+
+.toolbar a.button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #E5E5E5;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.toolbar .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Main content */
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #BDBDBD;
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.list li {
+  margin: 10px 0;
+  padding-left: 30px;
+  position: relative;
+}
+
+ul.list li:before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  color: #008080;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #008080;
+  color: #FFF;
+}
+
+tr:nth-child(even) {
+  background-color: #E5E5E5;
+}
+
+/* Footer */
+footer {
+  background-color: #E5E5E5;
+  padding: 20px;
+}
+
+.mac-button {
+  background-color: #008080;
+  color: #FFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}

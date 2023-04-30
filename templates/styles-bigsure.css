@@ -1,0 +1,300 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set background image */
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Set font and text color */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #333;
+}
+
+/* Toolbar styles */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: #999;
+  transition: color 0.2s ease-in-out;
+}
+
+.button:hover {
+  color: #333;
+}
+
+.button-square {
+  font-size: 1.25rem;
+  padding: 0.75rem;
+}
+
+.button-circle {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  padding: 0.75rem;
+}
+
+.right-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.left-toolbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main content styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.list {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.list li {
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.list li:before {
+  content: '\f00c';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  font-size: 1.1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #00d1b2;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+thead {
+  background-color: #eee;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 1.5rem;
+}
+
+th:last-child,
+td:last-child {
+  padding-right: 1.5rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f5f5f7;
+  padding: 2
+}
+/* Main container styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header toolbar styles */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #3d3d3d;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+/* Title styles */
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #007aff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Button circle styles */
+.button-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* Button square styles */
+.button-square {
+  width: 40px;
+  height: 40px;
+}
+
+/* Right toolbar styles */
+.right-toolbar {
+  display: flex;
+  align-items: center;
+}
+
+/* Left toolbar styles */
+.left-toolbar {
+  display: flex;
+  align-items: center;
+}
+
+/* Button group styles */
+.button-group {
+  display: flex;
+  align-items: center;
+}
+
+/* List styles */
+.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* List item styles */
+.list li {
+  position: relative;
+  padding-left: 30px;
+}
+
+/* Checkmark icon styles */
+.list li:before {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+
+/* Table head styles */
+thead {
+  background-color: #007aff;
+  color: white;
+}
+
+/* Table head cell styles */
+thead th {
+  padding: 10px;
+}
+
+/* Table body cell styles */
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+/* Mac OS UI styles */
+.mac-button {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #007aff;
+  text-decoration: none;
+  margin-right: 10px;
+  -webkit-appearance: none;
+}
+
+body {
+  background-image: url("https://wallpaperaccess.com/full/3030554.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
